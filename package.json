@@ -1,5 +1,5 @@
 {
-  "name": "my-recipe-app",
+  "name": "recipe-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "start": "vite preview"
   },
   "dependencies": {
     "react": "^19.0.0",
